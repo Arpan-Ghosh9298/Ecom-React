@@ -38,3 +38,30 @@ To run the React project locally, follow these steps:
 5. Your default browser should automatically open and load the project at http://localhost:3000. If it doesn't, manually open your browser and go to that URL.
 
 6. You should now see the React project up and running locally! Any changes you make to the source code will automatically refresh the page in the browser.
+
+7. Commands to install packages required in this project 
+    
+   ```
+   npm install redux
+   npm install react-redux
+   npm install axios
+   npm install react-router-dom
+   ```
+8. API Links
+   
+   ```
+   'https://fakestoreapi.com/products'  for all products
+   'https://fakestoreapi.com/products/1' for single product
+   ```
+9. Add this extension for redux as third argument in legacy_createStore() in store.js file
+   
+   ```
+   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() 
+   ```
+10. Hooks that we used in this project
+   
+    a. useEffect
+    b. useSelector
+    c. useDispatch
+    d. useParams
+   
