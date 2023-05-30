@@ -47,18 +47,23 @@ To run the React project locally, follow these steps:
    npm install axios
    npm install react-router-dom
    ```
-8. API Links
+8. Semanitc UI link tag
+   
+   ``` 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   ```
+9. API Links
    
    ```
    'https://fakestoreapi.com/products'  for all products
    'https://fakestoreapi.com/products/1' for single product
    ```
-9. Add this extension for redux as third argument in legacy_createStore() in store.js file
+10. Add this extension for redux as third argument in legacy_createStore() in store.js file
    
    ```
    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() 
    ```
-10. Hooks that we used in this project
+11. Hooks that we used in this project
    
     a. useEffect
     b. useSelector
