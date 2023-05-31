@@ -58,7 +58,7 @@ To run the React project locally, follow these steps:
    'https://fakestoreapi.com/products'  for all products
    'https://fakestoreapi.com/products/1' for single product
    ```
-10. Add this extension for redux as third argument in legacy_createStore() in store.js file
+10. Add this extension for redux as the third argument in legacy_createStore() in store.js file
    
    ```
    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() 
